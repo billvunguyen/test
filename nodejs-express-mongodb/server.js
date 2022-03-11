@@ -14,6 +14,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req,res) => {
     res.json ({ message: "Hello world" });
 });
+//routes
+require('./app/routes/auth.routes')(app);
+require('./app/routes/user.routes')(app);
 // set port, listen for resquest
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

@@ -7,7 +7,7 @@
 
 ## FINISHED
 - Une API REST en Node.js/Express
-
+- Authentification JWT/Token
 
 ## UNFINISHED
 
