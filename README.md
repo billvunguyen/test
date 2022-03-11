@@ -10,5 +10,5 @@
 ## UNFINISHED
 - WebSocket
 - Implémenter Redux
-#### IN PROGRESS
+## IN PROGRESS
 - Une application Web en ReactJS
