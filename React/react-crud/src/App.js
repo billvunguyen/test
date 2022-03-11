@@ -15,7 +15,7 @@ class App extends Component {
         <AppBar className={classes.appBar} position="static">
           <Toolbar>
             <Typography className={classes.name} variant="h6">
-              Test Les bons artisans
+              Test
             </Typography>
             <Link to={"/test"} className={classes.link}>
               <Typography variant="body2">

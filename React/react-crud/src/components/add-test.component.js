@@ -20,7 +20,7 @@ class AddTest extends Component {
             price: 0,
             rating: 0,
             warranty_years: 0,
-            available: false
+            available: false,
         };
     }
     onChangeName(e) {
