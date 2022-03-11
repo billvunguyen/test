@@ -7,6 +7,9 @@ class Test extends Component {
         super(props);
         this.onChangeName = this.onChangeName.bind(this);
         this.onChangeType = this.onChangeType.bind(this);
+        this.onChangePrice = this.onChangePrice.bind(this);
+        this.onChangeRating = this.onChangeRating.bind(this);
+        this.onChangeWarrantyYear = this.onChangeWarrantyYear.bind(this);
         this.getTest = this.getTest.bind(this);
         this.updateAvailable = this.updateAvailable.bind(this);
         this.updateTest = this.updateTest.bind(this);
